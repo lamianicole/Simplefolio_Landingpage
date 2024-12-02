@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+nav a {
+    color: var(--light-lavender-blue);
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    font-family: "Poppins-Light";
+}
+
+nav a:hover {
+    color: var(--cool-gray-blue);
+}
+
+.logo-left {
+    padding-left: 2em;
+}
+
+.logo-left p {
+    font-family: "Poppins-Medium";
+    font-size: 2rem;
+}

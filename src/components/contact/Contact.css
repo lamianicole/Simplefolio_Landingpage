@@ -1,0 +1,9 @@
+.contact-section {
+    margin-bottom: 4em;
+}
+
+.btn-wrap-contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}

@@ -1,30 +1,42 @@
 .hero-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 3em;
-    margin-left: 25%;
-    margin-right: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3em;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 h1 {
-    font-family: "Poppins-Medium";
-    color: var(--light-lavender-blue);
-    font-size: 3rem;
-    padding-bottom: 1rem;
+  font-family: "Poppins-Medium";
+  color: var(--light-lavender-blue);
+  font-size: 3rem;
+  padding-bottom: 1rem;
 }
 
 span {
-    color: var(--cool-gray-blue);
+  color: var(--cool-gray-blue);
 }
 
 p {
-    font-family: "Poppins-Light";
-    color: var(--light-lavender-blue);
-    padding-bottom: 1em;
+  font-family: "Poppins-Light";
+  color: var(--light-lavender-blue);
+  padding-bottom: 1em;
 }
 
 h3 {
-    padding-bottom: 1em;
+  padding-bottom: 1em;
 }
 
+/* Media Query für mobile */
+@media screen and (max-width: 768px) {
+  .hero-div {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2em;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
